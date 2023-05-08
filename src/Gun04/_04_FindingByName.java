@@ -12,7 +12,7 @@ public class _04_FindingByName {
         driver.get("https://form.jotform.com/221934510376353"); // sayfaya gittim
 
         WebElement ad=driver.findElement(By.name("q8_name[first]"));
-        ad.sendKeys("ismet");
+        ad.sendKeys("Berkay");
 
         MyFunc.Bekle(3);
         driver.quit();

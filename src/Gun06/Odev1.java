@@ -2,9 +2,9 @@ package Gun06;
 
 import Utlity.BaseDriver;
 import Utlity.MyFunc;
-import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.testng.annotations.Test;
 
 // 1- https://formsmarts.com/form/yu?mode=h5 sitesini açın
 // 2- Business i çekleyin.

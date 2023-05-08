@@ -15,7 +15,7 @@ public class _05_FindingByClassName {
         driver.get("https://form.jotform.com/221934510376353"); // sayfaya gittim
 
         WebElement name= driver.findElement(By.className("form-textbox"));
-        name.sendKeys("ismet");
+        name.sendKeys("Berkay");
         // birden fazla aynı locator a sahip eleman bulursa findElement ne yapar ?
         // cevap : ilk element i bulur
 

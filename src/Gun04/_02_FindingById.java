@@ -13,10 +13,10 @@ public class _02_FindingById {
         driver.get("https://form.jotform.com/221934510376353"); // sayfaya gittim
 
         WebElement isimKutusu=driver.findElement(By.id("first_8")); // İD ile elemanı bul
-        isimKutusu.sendKeys("ismet"); // kutucuklara yazı gönderme
+        isimKutusu.sendKeys("Berkay"); // kutucuklara yazı gönderme
 
         WebElement soyadKutusu=driver.findElement(By.id("last_8"));
-        soyadKutusu.sendKeys("temur");
+        soyadKutusu.sendKeys("Gün");
 
         MyFunc.Bekle(2);
 //        isimKutusu.clear();
